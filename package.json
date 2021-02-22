@@ -1,0 +1,51 @@
+{
+  "name": "boilerplate-backend",
+  "version": "1.0.0",
+  "description": "A boilerplate repository for creating projects with NodeJS and TypeScript using template.",
+  "author": "Maurício Romagnoli <mauricioromagnolis@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/x0n4d0/boilerplate-backend",
+  "homepage": "",
+  "keywords": [
+    "nodejs",
+    "boilerplate",
+    "typescript",
+    "express",
+    "jest"
+  ],
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node dist/main/server.js",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/main/server.ts",
+    "build": "tsc",
+    "lint": "npx eslint ./ --fix",
+    "test": "jest --passWithNoTests --runInBand --no-cache",
+    "test:unit": "npm test -- --watch -c jest-unit.config.js",
+    "test:integration": "npm test -- --watch -c jest-integration.config.js",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.25",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "husky": "^3.1.0",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.0",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}

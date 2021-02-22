@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "baseUrl": "src",
+    "rootDirs": ["src", "__tests__"],
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["*"],
+      "@/tests/*": ["../__tests__/*"]
+    },
+    "removeComments": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true,
+  },
+  "include": ["src", "__tests__"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+}
