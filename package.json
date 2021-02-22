@@ -1,14 +1,13 @@
 {
-  "name": "boilerplate-backend",
+  "name": "nps-calculator-api",
   "version": "1.0.0",
-  "description": "A boilerplate repository for creating projects with NodeJS and TypeScript using template.",
+  "description": "An simple Net Promoter Score calculator",
   "author": "Maurício Romagnoli <mauricioromagnolis@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/x0n4d0/boilerplate-backend",
+  "repository": "https://github.com/x0n4d0/nps-calculator-api",
   "homepage": "",
   "keywords": [
     "nodejs",
-    "boilerplate",
     "typescript",
     "express",
     "jest"
