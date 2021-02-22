@@ -1,4 +1,4 @@
-# Boilerplate Backend
+# Net Promoter Score Calculator
 
 ![BADGE_NODE_VERSION]
 ![BADGE_NPM_VERSION]
@@ -9,7 +9,7 @@
 ![BADGE_STARS]
 ![BADGE_FORKS]
 
-> A boilerplate repository for creating projects with NodeJS and TypeScript using template.
+> An simple Net Promoter Score calculator.
 
 <br>
 
@@ -29,7 +29,7 @@
 
 ## **📜 License**
 
-Boilerplate Backend is available under the [MIT license](https://opensource.org/licenses/MIT). See [LICENSE](./LICENSE) for the full license text.
+Net Promoter Score Calculator is available under the [MIT license](https://opensource.org/licenses/MIT). See [LICENSE](./LICENSE) for the full license text.
 
 
 <!-- Badges -->
