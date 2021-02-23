@@ -5,3 +5,6 @@ coverage
 
 # Files
 *.txt
+
+# SQLite File
+*.sqlite
