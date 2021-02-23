@@ -3,17 +3,14 @@ import express from 'express';
 
 import '../database';
 
+import { userRoutes } from '../routes/user';
+
 const PORT = 3333;
 
 const app = express();
 
-app.get('/users', (request, response) => {
-  return response.json({ message: 'Hello World - NLW04' });
-});
-
-app.post('/', (request, response) => {
-  return response.json({ message: 'Os dados foram salvos com sucesso!' });
-});
+app.use(express.json());
+app.use(userRoutes);
 
 app.listen(PORT, () => {
   console.log(`[*] Server running at ${PORT}`);
