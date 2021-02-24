@@ -1,13 +1,13 @@
 import { Request, Response } from 'express';
-import { getRepository } from 'typeorm';
+import { getCustomRepository } from 'typeorm';
 
-import { User } from '../models/user';
+import { UserRepository } from '../repositories/user';
 
 export class UserController {
   async create(request: Request, response: Response): Promise<Response> {
     const { name, email } = request.body;
 
-    const usersRepository = getRepository(User);
+    const usersRepository = getCustomRepository(UserRepository);
 
     const hasUserWithThisEmail = await usersRepository.findOne({
       email,
