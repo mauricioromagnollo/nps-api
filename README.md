@@ -65,6 +65,7 @@ See **[CHANGELOG](./docs/guides/CHANGELOG.md)** file for read about the releases
 - [NodeJS](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Jest](https://jestjs.io/)
+- [Supertest](https://github.com/visionmedia/supertest)
 - [Commitlint](https://github.com/conventional-changelog/commitlint)
 - [Husky](https://github.com/typicode/husky)
 - [Lint Staged](https://github.com/okonet/lint-staged)
