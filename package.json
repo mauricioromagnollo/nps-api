@@ -25,7 +25,6 @@
     "test:integration": "npm test -- --watch -c jest-integration.config.js",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
-    "posttest": "rm ./src/database/database.test.sqlite",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
   "devDependencies": {
