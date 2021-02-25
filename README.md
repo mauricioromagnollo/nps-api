@@ -79,6 +79,7 @@ See **[CHANGELOG](./docs/guides/CHANGELOG.md)** file for read about the releases
 - [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata)
 - [NodeMailer](https://nodemailer.com/about/)
 - [Ethereal](https://ethereal.email/)
+- [Handlebars](https://handlebarsjs.com/)
 
 <kbd>[⬆️ Index](#index)</kbd>
 
