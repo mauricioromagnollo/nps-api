@@ -77,6 +77,8 @@ See **[CHANGELOG](./docs/guides/CHANGELOG.md)** file for read about the releases
 - [UUID](https://www.npmjs.com/package/uuid)
 - [SQLite3](https://www.npmjs.com/package/sqlite3)
 - [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata)
+- [NodeMailer](https://nodemailer.com/about/)
+- [Ethereal](https://ethereal.email/)
 
 <kbd>[⬆️ Index](#index)</kbd>
 
