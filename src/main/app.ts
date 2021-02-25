@@ -1,6 +1,7 @@
 import 'reflect-metadata';
 import 'module-alias/register';
 import express from 'express';
+import 'dotenv/config';
 
 import createConnection from '@/database';
 
