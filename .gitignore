@@ -8,3 +8,6 @@ coverage
 
 # SQLite File
 *.sqlite
+
+# DotEnv
+.env
