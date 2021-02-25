@@ -103,6 +103,7 @@ See **[CHANGELOG](./docs/guides/CHANGELOG.md)** file for read about the releases
 ```bash
 $ npm ci && npm install
 ```
+
 - Now, copy `.env.example` file to `.env`:
 
 ```bash
@@ -206,18 +207,11 @@ Boilerplate Backend is available under the [MIT license](https://opensource.org/
 
 <!-- Badges -->
 
-[BADGE_NODE_VERSION]: https://img.shields.io/badge/nodejs-v14.15.3-3c873a
-
-[BADGE_NPM_VERSION]: https://img.shields.io/badge/npm-v6.14.9-cc3534
-
-[BADGE_LICENSE]: https://img.shields.io/github/license/x0n4d0/boilerplate-backend
-
-[BADGE_ISSUES_OPEN]: https://img.shields.io/github/issues/x0n4d0/boilerplate-backend
-
-[BADGE_ISSUES_CLOSED]: https://img.shields.io/github/issues-closed/x0n4d0/boilerplate-backend?color=red
-
-[BADGE_OPEN_PULL_REQUESTS]: https://img.shields.io/github/issues-pr/x0n4d0/boilerplate-backend?color=blue
-
-[BADGE_STARS]: https://img.shields.io/github/stars/x0n4d0/boilerplate-backend?color=inactive
-
-[BADGE_FORKS]: https://img.shields.io/github/forks/x0n4d0/boilerplate-backend?color=inactive
+[badge_node_version]: https://img.shields.io/badge/nodejs-v14.15.3-3c873a
+[badge_npm_version]: https://img.shields.io/badge/npm-v6.14.9-cc3534
+[badge_license]: https://img.shields.io/github/license/x0n4d0/boilerplate-backend
+[badge_issues_open]: https://img.shields.io/github/issues/x0n4d0/boilerplate-backend
+[badge_issues_closed]: https://img.shields.io/github/issues-closed/x0n4d0/boilerplate-backend?color=red
+[badge_open_pull_requests]: https://img.shields.io/github/issues-pr/x0n4d0/boilerplate-backend?color=blue
+[badge_stars]: https://img.shields.io/github/stars/x0n4d0/boilerplate-backend?color=inactive
+[badge_forks]: https://img.shields.io/github/forks/x0n4d0/boilerplate-backend?color=inactive
