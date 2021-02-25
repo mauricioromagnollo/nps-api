@@ -80,6 +80,7 @@ See **[CHANGELOG](./docs/guides/CHANGELOG.md)** file for read about the releases
 - [NodeMailer](https://nodemailer.com/about/)
 - [Ethereal](https://ethereal.email/)
 - [Handlebars](https://handlebarsjs.com/)
+- [DotENV](https://github.com/motdotla/dotenv)
 
 <kbd>[⬆️ Index](#index)</kbd>
 
@@ -97,7 +98,16 @@ See **[CHANGELOG](./docs/guides/CHANGELOG.md)** file for read about the releases
 ## ⚙️ **Settings**
 
 - Install the [NodeJS](https://nodejs.org/en/download/) in the version 14.x.
-- After NodeJS installation, run `npm ci && npm install` to install all dependencies in package.json file.
+- After NodeJS installation, run:
+
+```bash
+$ npm ci && npm install
+```
+- Now, copy `.env.example` file to `.env`:
+
+```bash
+$ cp .env.example .env
+```
 
 <kbd>[⬆️ Index](#index)</kbd>
 
