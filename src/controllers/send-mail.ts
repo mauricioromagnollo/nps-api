@@ -6,6 +6,7 @@ import { SurveyRepository } from '@/repositories/survey';
 import { SurveyUserRepository } from '@/repositories/survey-user';
 import { UserRepository } from '@/repositories/user';
 import SendMailService from '@/services/send-mail';
+import { AppError } from '@/errors/app-error';
 
 export class SendMailController {
   async execute(request: Request, response: Response): Promise<Response> {
@@ -28,9 +29,7 @@ export class SendMailController {
     });
 
     if (!survey) {
-      return response.status(400).json({
-        error: 'Survey does not exist!',
-      });
+      throw new AppError('Survey does not exist!');
     }
 
     const npsPath = resolve(__dirname, '..', 'views', 'emails', 'nps-mail.hbs');
