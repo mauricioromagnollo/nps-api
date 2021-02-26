@@ -1,13 +1,16 @@
 import { Router } from 'express';
+
 import { UserController } from '@/controllers/user';
 import { SurveyController } from '@/controllers/survey';
 import { SendMailController } from '@/controllers/send-mail';
+import { AnswerController } from '@/controllers/answer';
 
 const routes = Router();
 
 const userController = new UserController();
 const surveyController = new SurveyController();
 const sendMailController = new SendMailController();
+const answerController = new AnswerController();
 
 routes.post('/users', userController.create);
 
@@ -15,5 +18,7 @@ routes.post('/surveys', surveyController.create);
 routes.get('/surveys', surveyController.show);
 
 routes.post('/sendmail', sendMailController.execute);
+
+routes.get('/answer/:value', answerController.execute);
 
 export { routes };
