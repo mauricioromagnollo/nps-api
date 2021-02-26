@@ -1,6 +1,5 @@
 import request from 'supertest';
-import fs from 'fs';
-import path from 'path';
+import { getConnection } from 'typeorm';
 
 import { app } from '../src/main/app';
 
@@ -12,19 +11,10 @@ describe('Surveys', () => {
     await connection.runMigrations();
   });
 
-  afterAll(() => {
-    const databaseTestFilePath = path.join(
-      __dirname,
-      '..',
-      'src',
-      'database',
-      'database.test.sqlite',
-    );
-    try {
-      fs.unlinkSync(databaseTestFilePath);
-    } catch (err) {
-      console.error(err);
-    }
+  afterAll(async () => {
+    const connection = getConnection();
+    await connection.dropDatabase();
+    await connection.close();
   });
 
   it('should be able to create a new survey', async () => {
