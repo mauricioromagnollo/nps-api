@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { getCustomRepository } from 'typeorm';
+import { getCustomRepository, Not, IsNull } from 'typeorm';
 
 import { SurveyUserRepository } from '@/repositories/survey-user';
 
@@ -11,6 +11,7 @@ export class NpsController {
 
     const surveyUser = await surveyUserRepository.find({
       survey_id,
+      value: Not(IsNull()),
     });
 
     const detractor = surveyUser.filter(
