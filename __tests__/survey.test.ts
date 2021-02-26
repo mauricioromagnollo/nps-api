@@ -37,4 +37,13 @@ describe('Surveys', () => {
 
     expect(response.body.length).toBe(2);
   });
+
+  it('should not be able to create new survey without title and description', async () => {
+    const response = await request(app).post('/surveys').send({
+      title: '',
+      description: '',
+    });
+
+    expect(response.status).toBe(400);
+  });
 });
