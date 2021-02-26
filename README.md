@@ -81,6 +81,7 @@ See **[CHANGELOG](./docs/guides/CHANGELOG.md)** file for read about the releases
 - [Ethereal](https://ethereal.email/)
 - [Handlebars](https://handlebarsjs.com/)
 - [DotENV](https://github.com/motdotla/dotenv)
+- [Yup](https://github.com/jquense/yup)
 
 <kbd>[⬆️ Index](#index)</kbd>
 
