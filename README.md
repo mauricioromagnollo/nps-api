@@ -210,9 +210,9 @@ Boilerplate Backend is available under the [MIT license](https://opensource.org/
 
 [badge_node_version]: https://img.shields.io/badge/nodejs-v14.15.3-3c873a
 [badge_npm_version]: https://img.shields.io/badge/npm-v6.14.9-cc3534
-[badge_license]: https://img.shields.io/github/license/x0n4d0/boilerplate-backend
-[badge_issues_open]: https://img.shields.io/github/issues/x0n4d0/boilerplate-backend
-[badge_issues_closed]: https://img.shields.io/github/issues-closed/x0n4d0/boilerplate-backend?color=red
-[badge_open_pull_requests]: https://img.shields.io/github/issues-pr/x0n4d0/boilerplate-backend?color=blue
-[badge_stars]: https://img.shields.io/github/stars/x0n4d0/boilerplate-backend?color=inactive
-[badge_forks]: https://img.shields.io/github/forks/x0n4d0/boilerplate-backend?color=inactive
+[badge_license]: https://img.shields.io/github/license/x0n4d0/nps-api
+[badge_issues_open]: https://img.shields.io/github/issues/x0n4d0/nps-api
+[badge_issues_closed]: https://img.shields.io/github/issues-closed/x0n4d0/nps-api?color=red
+[badge_open_pull_requests]: https://img.shields.io/github/issues-pr/x0n4d0/nps-api?color=blue
+[badge_stars]: https://img.shields.io/github/stars/x0n4d0/nps-api?color=inactive
+[badge_forks]: https://img.shields.io/github/forks/x0n4d0/nps-api?color=inactive
